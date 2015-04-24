@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <clientlayers>
+        <clientlayer name="clientlayer">
+            <maxscale>260000</maxscale>
+            <singletile>true</singletile>
+            <datasource>conzoom_husstandsindkomst_gns</datasource>
+        </clientlayer>
+    </clientlayers>
+    <cbinfo-metadata>
+        <param name="copyright.url"><![CDATA[https://www.conzoom.eu/]]></param>
+        <param name="copyright-text"><![CDATA[© Conzoom]]></param>
+        <param name="metadata.text"><![CDATA[Gennemsnitlig husstandsindkomst]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/9]]></param>
+    </cbinfo-metadata>
+    <layer datasource="conzoom_husstandsindkomst_gns" name="dummy" type="RASTER">[datasource:conzoom_husstandsindkomst_gns.mapfile-datasource]
+<class>
+            <name>Under 100.000</name>
+            <style>
+                <color>50 50 50</color>
+            </style>
+        </class>
+        <class>
+            <name>100.000 til 200.000</name>
+            <style>
+                <color>29 94 145</color>
+            </style>
+        </class>
+        <class>
+            <name>200.000 til 300.000</name>
+            <style>
+                <color>0 94 200</color>
+            </style>
+        </class>
+        <class>
+            <name>300.000 til 400.000</name>
+            <style>
+                <color>127 174 227</color>
+            </style>
+        </class>
+        <class>
+            <name>400.000 til 500.000</name>
+            <style>
+                <color>127 194 127</color>
+            </style>
+        </class>
+        <class>
+            <name>500.000 til 600.000</name>
+            <style>
+                <color>36 151 36</color>
+            </style>
+        </class>
+        <class>
+            <name>600.000 til 700.000</name>
+            <style>
+                <color>255 208 0</color>
+            </style>
+        </class>
+        <class>
+            <name>700.000 til 900.000</name>
+            <style>
+                <color>244 131 32</color>
+            </style>
+        </class>
+        <class>
+            <name>900.000 til 1.100.000</name>
+            <style>
+                <color>239 38 38</color>
+            </style>
+        </class>
+        <class>
+            <name>Over 1.100.000</name>
+            <style>
+                <color>174 31 31</color>
+            </style>
+        </class>
+        <maxscale>260000</maxscale>
+        <metadata> 
+                "wms_srs" "EPSG:25832" 
+                "wms_title" "conzoom_variable_2015" 
+                "wms_format" "image/png"
+				"wms_style" "husstandsindkomst_gns"
+        </metadata>
+    </layer>
+</theme>

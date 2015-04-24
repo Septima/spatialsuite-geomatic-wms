@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<theme>
+    <clientlayers>
+        <clientlayer>
+            <singletile>true</singletile>
+            <datasource>wms_husstandsindkomstfaktor</datasource>
+        </clientlayer>
+    </clientlayers>
+    <!--   
+    ===============================================================
+    Conzoom public, Syddjurs Kommune
+    ===============================================================
+	Conzoom, husstandsindkomstfaktor
+    =============================================================== 
+    -->
+    <cbinfo-metadata>
+        <param name="metadata.text"><![CDATA[Geomatic public data. ]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/16]]></param>
+    </cbinfo-metadata>
+    <layer name="theme-conzoom_husstandsindkomstfaktor" type="RASTER">[datasource:wms_husstandsindkomstfaktor.mapfile-datasource]
+        <transparency>100</transparency>
+    </layer>
+    <layer name="dummy" type="POLYGON">
+        <class>
+            <name>1: Gns. Husstandsindkomst kr 236.668 </name>
+            <style>
+                <color>150 150 150</color>
+            </style>
+        </class>
+        <class>
+            <name>2: Gns. Husstandsindkomst kr 313.367 </name>
+            <style>
+                <color>143 175 199</color>
+            </style>
+        </class>
+        <class>
+            <name>3: Gns. Husstandsindkomst kr 359.140 </name>
+            <style>
+                <color>127 175 227</color>
+            </style>
+        </class>
+        <class>
+            <name>4: Gns. Husstandsindkomst kr 407.645 </name>
+            <style>
+                <color>192 214 240</color>
+            </style>
+        </class>
+        <class>
+            <name>5: Gns. Husstandsindkomst kr 463.018 </name>
+            <style>
+                <color>191 222 191</color>
+            </style>
+        </class>
+        <class>
+            <name>6: Gns. Husstandsindkomst kr 530.151 </name>
+            <style>
+                <color>145 201 145</color>
+            </style>
+        </class>
+        <class>
+            <name>7: Gns. Husstandsindkomst kr 603.061 </name>
+            <style>
+                <color>225 230 128</color>
+            </style>
+        </class>
+        <class>
+            <name>8: Gns. Husstandsindkomst kr 685.644 </name>
+            <style>
+                <color>247 187 143</color>
+            </style>
+        </class>
+        <class>
+            <name>9: Gns. Husstandsindkomst kr 802.726 </name>
+            <style>
+                <color>247 146 146</color>
+            </style>
+        </class>
+        <class>
+            <name>10: Gns. Husstandsindkomst kr 1.144.943 </name>
+            <style>
+                <color>214 143 143</color>
+            </style>
+        </class>
+    </layer>
+</theme>

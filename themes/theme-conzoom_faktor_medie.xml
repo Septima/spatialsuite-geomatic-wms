@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<theme>
+    <clientlayers>
+        <clientlayer>
+            <singletile>true</singletile>
+            <datasource>wms_mediefaktor</datasource>
+        </clientlayer>
+    </clientlayers>
+    <!--   
+    ===============================================================
+    Conzoom public, Syddjurs Kommune
+    ===============================================================
+	Conzoom, mediefaktor
+    =============================================================== 
+    -->
+    <cbinfo-metadata>
+        <param name="metadata.text"><![CDATA[Geomatic public data. Mediefaktor]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/17]]></param>
+    </cbinfo-metadata>
+    <layer name="theme-conzoom_mediefaktor" type="RASTER">[datasource:wms_mediefaktor.mapfile-datasource]
+        <transparency>100</transparency>
+    </layer>
+    <layer name="dummy" type="POLYGON">
+        <class>
+            <name>1: Største brugere af lokalmedier </name>
+            <style>
+                <color>150 150 150</color>
+            </style>
+        </class>
+        <class>
+            <name>2: Bruger lokalmedier</name>
+            <style>
+                <color>143 175 199</color>
+            </style>
+        </class>
+        <class>
+            <name>3: Bruger alle typer medier</name>
+            <style>
+                <color>127 175 227</color>
+            </style>
+        </class>
+        <class>
+            <name>4: Bruger alle typer medier</name>
+            <style>
+                <color>192 214 240</color>
+            </style>
+        </class>
+        <class>
+            <name>5: Bruger ikke lokalmedier, men andre public service medier</name>
+            <style>
+                <color>191 222 191</color>
+            </style>
+        </class>
+        <class>
+            <name>6: Bruger ikke lokalmedier, men komercielle medier</name>
+            <style>
+                <color>145 201 145</color>
+            </style>
+        </class>
+        <class>
+            <name>7: Bruger ikke lokalmedier, men andre public service medier</name>
+            <style>
+                <color>225 230 128</color>
+            </style>
+        </class>
+        <class>
+            <name>8: Bruger ikke lokalmedier</name>
+            <style>
+                <color>247 187 143</color>
+            </style>
+        </class>
+        <class>
+            <name>9: Bruger ikke lokalmedier</name>
+            <style>
+                <color>247 146 146</color>
+            </style>
+        </class>
+        <class>
+            <name>10: Bruger ikke lokalmedier</name>
+            <style>
+                <color>214 143 143</color>
+            </style>
+        </class>
+    </layer>
+</theme>

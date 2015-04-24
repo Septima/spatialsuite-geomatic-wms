@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tool>
+    <cbinfo-metadata>
+        <param name="tool.help.text"><![CDATA[Links til Geomatic web applikatione:, Public app og Addit app]]></param>
+    </cbinfo-metadata>
+    <onclick>link_geomatic_apps();</onclick>
+    <displayname><![CDATA[Demografiske analyser]]></displayname>
+    <description><![CDATA[Denne knap åbner Geomatics webapp portal hvor du kan oprette dig som bruger med Roskilde kommunes CVR (29189404) nr og din roskilde mail adresse]]></description>
+    <tooltip><![CDATA[Åben Geomatic web applikations portal]]></tooltip>
+    <jssrc><![CDATA[
+        function link_geomatic_apps()
+        {
+           url="https://public.conzoom.eu/";
+           window.open (url);
+        }
+	]]></jssrc>
+</tool>

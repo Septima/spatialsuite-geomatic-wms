@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<theme>
+    <clientlayers>
+        <clientlayer>
+            <singletile>true</singletile>
+            <datasource>wms_transportfaktor</datasource>
+        </clientlayer>
+    </clientlayers>
+    <!--   
+    ===============================================================
+    Conzoom public, Syddjurs Kommune
+    ===============================================================
+	Conzoom, aldersfaktor
+    =============================================================== 
+    -->
+    <cbinfo-metadata>
+        <param name="metadata.text"><![CDATA[Geomatic public data. Transportfaktor]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/18]]></param>
+    </cbinfo-metadata>
+    <layer name="theme-conzoom_transportfaktor" type="RASTER">[datasource:wms_transportfaktor.mapfile-datasource]
+        <transparency>100</transparency>
+    </layer>
+    <layer name="dummy" type="POLYGON">
+        <class>
+            <name>1: Bilister</name>
+            <style>
+                <color>150 150 150</color>
+            </style>
+        </class>
+        <class>
+            <name>2: Bruger både kollektiv transport og bilen</name>
+            <style>
+                <color>143 175 199</color>
+            </style>
+        </class>
+        <class>
+            <name>3: Bruger mest cyklen, men også bil og kollektiv transport</name>
+            <style>
+                <color>127 175 227</color>
+            </style>
+        </class>
+        <class>
+            <name>4: Bruger kollektiv transport og nogle gange bil</name>
+            <style>
+                <color>192 214 240</color>
+            </style>
+        </class>
+        <class>
+            <name>5: Bruger kollektiv transport og cyklen og nogle gange bil</name>
+            <style>
+                <color>191 222 191</color>
+            </style>
+        </class>
+        <class>
+            <name>6: Bruger mest kollektiv transport, men cykler også. Ej bil</name>
+            <style>
+                <color>145 201 145</color>
+            </style>
+        </class>
+        <class>
+            <name>7: Bruger kollektiv transport og cyklen. Ej bil</name>
+            <style>
+                <color>225 230 128</color>
+            </style>
+        </class>
+        <class>
+            <name>8: Bruger meget kollektiv transport og cykel.Ej bil</name>
+            <style>
+                <color>247 187 143</color>
+            </style>
+        </class>
+        <class>
+            <name>9: Bruger rigtig meget kollektiv transport og cykel.Ej bil</name>
+            <style>
+                <color>247 146 146</color>
+            </style>
+        </class>
+        <class>
+            <name>10: Bruger rigtig meget kollektiv transport og cykel.Ej bil</name>
+            <style>
+                <color>214 143 143</color>
+            </style>
+        </class>
+    </layer>
+</theme>

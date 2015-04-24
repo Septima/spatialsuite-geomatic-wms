@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<theme>
+    <clientlayers>
+        <clientlayer>
+            <singletile>true</singletile>
+            <datasource>wms_husstandsgruppe_G5</datasource>
+        </clientlayer>
+    </clientlayers>
+    <!--   
+    ===============================================================
+    Conzoom public, Syddjurs Kommune
+    ===============================================================
+	Conzoom, gruppe
+    =============================================================== 
+    -->
+    <cbinfo-metadata>
+        <param name="metadata.text"><![CDATA[Conzoom public data. Grupperne er inddelt i A - Velfunderede husejere, B - Komfort og hygge, C - Livet på landet, D- Velhavere, E - Urban mangfoldighed, F - Vid og velstand, G - Seniorer, H - Unge på vej, I - Provinsliv]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geodemografisk_klassifikation_dk_g5]]></param>
+    </cbinfo-metadata>
+    <layer name="theme-conzoom_gruppe" type="RASTER">[datasource:wms_husstandsgruppe_G5.mapfile-datasource]
+        <transparency>100</transparency>
+    </layer>
+    <layer name="dummy" type="POLYGON">
+        <class>
+            <name>A - Velfunderede husejere</name>
+            <style>
+                <color>152 152 152</color>
+            </style>
+        </class>
+        <class>
+            <name>B - Komfort og hygge</name>
+            <style>
+                <color>142 174 199</color>
+            </style>
+        </class>
+        <class>
+            <name>C - Livet på landet</name>
+            <style>
+                <color>127 174 226</color>
+            </style>
+        </class>
+        <class>
+            <name>D - Velhavere</name>
+            <style>
+                <color>191 213 240</color>
+            </style>
+        </class>
+        <class>
+            <name>E - Urban mangfoldighed</name>
+            <style>
+                <color>191 223 191</color>
+            </style>
+        </class>
+        <class>
+            <name>F - Vid og velstand</name>
+            <style>
+                <color>145 202 145</color>
+            </style>
+        </class>
+        <class>
+            <name>G - Seniorer</name>
+            <style>
+                <color>255 230 127</color>
+            </style>
+        </class>
+        <class>
+            <name>H - Unge på vej</name>
+            <style>
+                <color>248 188 143</color>
+            </style>
+        </class>
+        <class>
+            <name>I - Provinsliv</name>
+            <style>
+                <color>183 146 146</color>
+            </style>
+        </class>
+    </layer>
+</theme>

@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<datasources>
+<!--***********************************************-->
+<!--*			Variabel tema opsætning 		  *-->
+<!--***********************************************-->
+
+<!-- http://pubmap.conzoom.eu/wms?request=GetCapabilities&SERVICE=WMS&GEOMATIC_USERNAME=XXX&GEOMATIC_PASSWORD=XXX -->
+<endpoint name="conzoom_socio_variabel_wms" endpointtype="wms">
+			<service>http://pubmap.conzoom.eu/wms?</service>
+			<parameters>
+					<servicename>wms</servicename>
+					<GEOMATIC_USERNAME>[module.spatiasluite.geomatic.wms.username]</GEOMATIC_USERNAME>
+					<GEOMATIC_PASSWORD>[module.spatiasluite.geomatic.wms.password]</GEOMATIC_PASSWORD>
+			</parameters>
+	</endpoint>
+
+	<!--http://map.conzoom.eu/geoserver/wms?request=GetCapabilities&SERVICE=WMS&GEOMATIC_USERNAME=XXX&GEOMATIC_PASSWORD=XXX-->
+		<endpoint name="conzoom_socio_faktor_wms" endpointtype="wms">
+				<service>http://map.conzoom.eu/geoserver/wms?</service>
+				<parameters>
+						<servicename>wms</servicename>
+						<GEOMATIC_USERNAME>[module.spatiasluite.geomatic.wms.username]</GEOMATIC_USERNAME>
+						<GEOMATIC_PASSWORD>[module.spatiasluite.geomatic.wms.password]</GEOMATIC_PASSWORD>
+				</parameters>
+		</endpoint>
+
+	<!--***********************************************-->
+	<!--*			Variabel tema opsætning 		  *-->
+	<!--***********************************************-->
+
+    <!-- Alder -->
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_0_11">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_0-11</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_12_16">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_12-16</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_17_22">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_17-22</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_23_29">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_23-29</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_30_35">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_30-35</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_36_39">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_36-39</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_40_49">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_40-49</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_50_59">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_50-59</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_60_65">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_60-65</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_66_75">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_66-75</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_alder11g_over75">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+        </wms>
+        <parameters>
+            <STYLES>alder11g_Over75</STYLES>
+        </parameters>
+    </datasource>
+
+    <!-- Beskæftigelse -->
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_anden">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_anden</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_arbejdsledige">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_arbejdsledige</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_boern">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_boern</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_efterloen">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_efterloen</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_ftids_pens">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_ftids_pens</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_lm_hoejt">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_lm_hoejt</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_lm_mellem">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_lm_mellem</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_oevrige_lm">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_oevrige_lm</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_pensionister">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_pensionister</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_selvst">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_selvst</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_topl">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_topl</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_besk_udd">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>besk_udd</STYLES>
+        </parameters>
+    </datasource>
+
+    <!-- Civilstand -->
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_civilstand_enlig">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>civilstand_enlig</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_civilstand_par">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>civilstand_par</STYLES>
+        </parameters>
+    </datasource>
+
+    <!-- Ejerforhold-->
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_ejer_andel">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>ejer_andel</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_ejer_ejerbolig">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>ejer_ejerbolig</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_ejer_offleje">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>ejer_offleje</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_ejer_privatleje">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>ejer_privatleje</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_ejer_ukendt">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>ejer_ukendt</STYLES>
+        </parameters>
+    </datasource>
+
+    <!-- Formue-->
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_formue_gns">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>formue_gns</STYLES>
+        </parameters>
+    </datasource>
+
+    <!-- Husstandsindkomst-->
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_husstandsindkomst_gns">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>husstandsindkomst_gns</STYLES>
+        </parameters>
+    </datasource>
+
+    <!-- Personindkomst-->
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_personindkomst_gns">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>personindkomst_gns</STYLES>
+        </parameters>
+    </datasource>
+
+    <!-- Uddannelse-->
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_udd_almen">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>udd_almen</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_udd_anden">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>udd_anden</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_udd_bach">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>udd_bach</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_udd_erhvfag">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>udd_erhvfag</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_udd_erhvgym">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>udd_erhvgym</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_udd_grund">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>udd_grund</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_udd_kortvidere">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>udd_kortvidere</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_udd_langvidere">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>udd_langvidere</STYLES>
+        </parameters>
+    </datasource>
+    <datasource endpoint="conzoom_socio_variabel_wms" name="conzoom_udd_mellemvidere">
+        <wms>
+            <layers>conzoom_variable_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+            <STYLES>udd_mellemvidere</STYLES>
+        </parameters>
+    </datasource>
+
+	<!--***********************************************-->
+	<!--*			Faktor tema opsætning 		  	  *-->
+	<!--***********************************************-->
+
+
+    <datasource name="wms_husstandsgruppe_G4" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+            <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+           <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=543%26layerName=conzoom:public_wms_2015</sld>
+        </parameters>
+    </datasource>
+   <datasource name="wms_husstandstype_G4" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+           <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+           <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=544%26layerName=conzoom:public_wms_2015</sld>
+        </parameters>
+   </datasource>
+    <datasource name="wms_husstandsgruppe_G5" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+            <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+           <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=281101%26layerName=conzoom:public_wms_2015</sld>
+        </parameters>
+    </datasource>
+   <datasource name="wms_husstandstype_G5" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+           <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+           <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=281102%26layerName=conzoom:public_wms_2015</sld>
+        </parameters>
+   </datasource>
+   <datasource name="wms_boligtypefaktor" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+            <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+           <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=453%26layerName=conzoom:public_wms_2015</sld>
+        </parameters>
+   </datasource>
+   <datasource name="wms_ejerforholdsfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+      <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=454%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_formuefaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=456%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_personindkomstfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=457%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_bilejerfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=459%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_boernefaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=522%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_civilstandsfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=523%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_husstandsindkomstfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=524%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_aldersfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=525%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_uddannelsesfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=526%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_beskaeftigelsesfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=527%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_digitaliseringsfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=542%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_mediefaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=560%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_miljoefaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=568%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+   <datasource name="wms_transportfaktor" endpoint="conzoom_socio_faktor_wms">
+      <wms>
+         <srs>EPSG:25832</srs>
+         <layers>conzoom:public_wms_2015</layers>
+         <format>image/png</format>
+         <transparent>true</transparent>
+      </wms>
+      <parameters>
+         <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=562%26layerName=conzoom:public_wms_2015</sld>
+      </parameters>
+   </datasource>
+    <datasource name="wms_rygefaktor" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+            <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+		  <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=567%26layerName=conzoom:public_wms_2015</sld>
+		</parameters>
+    </datasource>
+</datasources>

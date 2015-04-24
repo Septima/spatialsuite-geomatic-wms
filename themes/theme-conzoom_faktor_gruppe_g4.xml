@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<theme>
+    <clientlayers>
+        <clientlayer>
+            <singletile>true</singletile>
+        </clientlayer>
+    </clientlayers>
+    <!--   
+    ===============================================================
+    Conzoom public, Syddjurs Kommune
+    ===============================================================
+	Conzoom, gruppe
+    =============================================================== 
+    -->
+    <cbinfo-metadata>
+        <param name="metadata.text"><![CDATA[Conzoom public data. Grupperne er inddelt i A - Boligejere med overskud, B - Komfort og hygge, C - Livet på landet, D- Velhavere, E - Fællesskab, F - Storbyliv, G - Seniorer, H - Unge på vej]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
+        <param name="metadata.url"/>
+    </cbinfo-metadata>
+    <layer name="theme-conzoom_gruppe" type="RASTER">[datasource:wms_husstandsgruppe_G4.mapfile-datasource]
+        <transparency>100</transparency>
+    </layer>
+    <layer name="dummy" type="POLYGON">
+        <class>
+            <name>A - Boligejere med overskud</name>
+            <style>
+                <color>152 152 152</color>
+            </style>
+        </class>
+        <class>
+            <name>B - Komfort og hygge</name>
+            <style>
+                <color>142 174 199</color>
+            </style>
+        </class>
+        <class>
+            <name>C - Livet på landet</name>
+            <style>
+                <color>127 175 227</color>
+            </style>
+        </class>
+        <class>
+            <name>D - Velhavere</name>
+            <style>
+                <color>191 213 240</color>
+            </style>
+        </class>
+        <class>
+            <name>E - Fællesskab</name>
+            <style>
+                <color>191 222 191</color>
+            </style>
+        </class>
+        <class>
+            <name>F - Storbyliv</name>
+            <style>
+                <color>145 201 145</color>
+            </style>
+        </class>
+        <class>
+            <name>G - Seniorer</name>
+            <style>
+                <color>225 230 128</color>
+            </style>
+        </class>
+        <class>
+            <name>H - Unge på vej</name>
+            <style>
+                <color>247 187 143</color>
+            </style>
+        </class>
+    </layer>
+</theme>

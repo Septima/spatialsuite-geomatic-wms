@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<themes>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_arbejdsledige">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Arbejdsledige</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_anden">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Anden Beskæftigelse</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_besk_oevrige_lm">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Øvrige lønmodtagere</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_pensionister">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Pensionister</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_efterloen">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Efterlønsmodtagere</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_ftids_pens">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Førtidspensionister</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_selvst">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Selvstændige</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_besk_topl">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Topledere</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_lm_hoejt">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Lønmodtagere på højt niveau</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_lm_mellem">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Lønmodtagere på mellemniveau</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_udd">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Under uddannelse</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_boern">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Børn</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_ukendt">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Ukendt</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_offleje">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Offentlige lejeboliger</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_privatleje">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Privat lejeboliger</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_ejerbolig">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Ejerboliger</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_andel">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Andelsboliger</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_husstandsindkomst_gns">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>indkomst_og_formue</group>
+                <selectable>true</selectable>
+                <displayname>Gennemsnitlig husstandsindkomst</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_personindkomst_gns">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>indkomst_og_formue</group>
+                <selectable>true</selectable>
+                <displayname>Gennemsnitlig personindkomst</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_formue_gns">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>indkomst_og_formue</group>
+                <selectable>true</selectable>
+                <displayname>Gennemsnitlig formue</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_anden">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Anden uddannelse</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_langvidere">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Lang videreg. og forskere</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_bach">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Bachelor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_mellemvidere">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Mellemlang videregående</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_kortvidere">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Kort videregående</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_erhvgym">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Erhvervsgymnasial</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_almen">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Almen gymnasial</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_erhvfag">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Erhvervsfaglig</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_grund">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Grundskole</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_alder">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Aldersfaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_beskaeftigelse">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Beskæftigelsesfaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_bilejer">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Bilejerfaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_boerne">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Børnefaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_boligtype">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Boligtypefaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_civilstand">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Civilstandsfaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_ejerforhold">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Ejerforholdsfaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_ryge">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Rygefaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_formue">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Formuefaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_husstandsindkomst">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Husstandsindkomst faktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_personindkomst">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Personindkomst faktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_uddannelse">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Uddannelsesfaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_medie">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Mediefaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_miljoe">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Miljøfaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_transport">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Transportfaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_digitalisering">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>faktorer</group>
+                <selectable>true</selectable>
+                <displayname>Digitaliseringsfaktor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_gruppe_g4">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>geomatic_klassifikation</group>
+                <selectable>true</selectable>
+                <displayname>Husstandsgruppe G4 (2012)</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_gruppe_g5">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>geomatic_klassifikation</group>
+                <selectable>true</selectable>
+                <displayname>Husstandsgruppe G5 (2013)</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_type_g4">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>geomatic_klassifikation</group>
+                <selectable>true</selectable>
+                <displayname>Husstandstype G4 (2012)</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_type_g5">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>geomatic_klassifikation</group>
+                <selectable>true</selectable>
+                <displayname>Husstandstype G5 (2013)</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_over75">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder over 75 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_66_75">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 66-75 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_60_65">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 60-65 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_50_59">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 50-59 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_40_49">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 40-49 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_36_39">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 36-39 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_30_35">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 30-35 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_23_29">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 23-29 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_17_22">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 17-22 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_12_16">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 12-16 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_0_11">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 0-11 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_civilstand_par">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>civilstand</group>
+                <selectable>true</selectable>
+                <displayname>Par</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="wms_conzoomsocio" name="theme-conzoom_civilstand_enlig">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>civilstand</group>
+                <selectable>true</selectable>
+                <displayname>Enlig</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+</themes>

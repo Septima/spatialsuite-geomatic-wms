@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <clientlayers>
+        <clientlayer name="clientlayer">
+            <maxscale>260000</maxscale>
+            <singletile>true</singletile>
+            <datasource>conzoom_besk_arbejdsledige</datasource>
+        </clientlayer>
+    </clientlayers>
+    <cbinfo-metadata>
+        <param name="copyright.url"><![CDATA[https://www.conzoom.eu/]]></param>
+        <param name="copyright-text"><![CDATA[© Conzoom]]></param>
+        <param name="metadata.text"><![CDATA[Arbejdsledige]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/3]]></param>
+    </cbinfo-metadata>
+    <layer datasource="conzoom_besk_arbejdsledige" name="dummy" type="RASTER">[datasource:conzoom_besk_arbejdsledige.mapfile-datasource]
+<class>
+            <name>0-5%</name>
+            <style>
+                <color>50 50 50</color>
+            </style>
+        </class>
+        <class>
+            <name>5-10%</name>
+            <style>
+                <color>29 94 145</color>
+            </style>
+        </class>
+        <class>
+            <name>10-15%</name>
+            <style>
+                <color>0 94 200</color>
+            </style>
+        </class>
+        <class>
+            <name>15-20%</name>
+            <style>
+                <color>127 174 227</color>
+            </style>
+        </class>
+        <class>
+            <name>20-25%</name>
+            <style>
+                <color>127 194 127</color>
+            </style>
+        </class>
+        <class>
+            <name>25-30%</name>
+            <style>
+                <color>36 151 36</color>
+            </style>
+        </class>
+        <class>
+            <name>30-40%</name>
+            <style>
+                <color>255 208 0</color>
+            </style>
+        </class>
+        <class>
+            <name>40-50%</name>
+            <style>
+                <color>244 131 32</color>
+            </style>
+        </class>
+        <class>
+            <name>50-75%</name>
+            <style>
+                <color>239 38 38</color>
+            </style>
+        </class>
+        <class>
+            <name>75-100%</name>
+            <style>
+                <color>174 31 31</color>
+            </style>
+        </class>
+        <maxscale>260000</maxscale>
+        <metadata> 
+                "wms_srs" "EPSG:25832" 
+                "wms_title" "conzoom_variable_2015" 
+                "wms_format" "image/png"
+				"wms_style" "besk_arbejdsledige"
+        </metadata>
+    </layer>
+</theme>

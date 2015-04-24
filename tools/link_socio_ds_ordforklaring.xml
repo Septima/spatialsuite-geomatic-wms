@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tool>
+    <cbinfo-metadata>
+        <param name="tool.help.text"><![CDATA[Link til Danmarks statistik ordforklaring]]></param>
+    </cbinfo-metadata>
+    <onclick>link_socio_ds_ordforklaring();</onclick>
+    <displayname><![CDATA[Link til Danmarks statistik ordforklaring]]></displayname>
+    <description><![CDATA[Denne knap åbner Danmarks statistik ordforklaring]]></description>
+    <tooltip><![CDATA[Klik for at læse ordforklaring]]></tooltip>
+    <jssrc><![CDATA[
+        function link_socio_ds_ordforklaring()
+        {
+           url="http://www.dst.dk/da/Statistik/dokumentation/hvadbetyder.aspx";
+           window.open (url);
+        }
+	]]></jssrc>
+</tool>

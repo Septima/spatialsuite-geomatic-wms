@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<theme>
+    <clientlayers>
+        <clientlayer>
+            <singletile>true</singletile>
+            <datasource>wms_husstandstype_G5</datasource>
+        </clientlayer>
+    </clientlayers>
+    <!--   
+    ===============================================================
+    Conzoom public, Syddjurs Kommune
+    ===============================================================
+	Conzoom, type
+    =============================================================== 
+    -->
+    <cbinfo-metadata>
+        <param name="metadata.text"><![CDATA[Conzoom public data. Typerne er inddelt i 30 kategorier, eksempelvis D3 - Veluddannede, velstillede, voksne familier]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geodemografisk_klassifikation_dk_g5]]></param>
+    </cbinfo-metadata>
+    <layer name="theme-conzoom_type" type="RASTER">[datasource:wms_husstandstype_G5.mapfile-datasource]
+        <transparency>100</transparency>
+    </layer>
+    <layer name="dummy" type="POLYGON">
+        <class>
+            <name>A1 - Karriereorienteret familie med økonomisk overskud</name>
+            <style>
+                <color>142 174 199</color>
+            </style>
+        </class>
+        <class>
+            <name>A2 - Veluddannede og børnerige familier</name>
+            <style>
+                <color>127 174 226</color>
+            </style>
+        </class>
+        <class>
+            <name>A3 - Formuende famlier med fraflyttede børn</name>
+            <style>
+                <color>153 203 255</color>
+            </style>
+        </class>
+        <class>
+            <name>A4 - Erhvervsdrivende fra hjemmeadressen</name>
+            <style>
+                <color>216 235 255</color>
+            </style>
+        </class>
+        <class>
+            <name>A5 - Midaldrende med gode kår</name>
+            <style>
+                <color>241 248 255</color>
+            </style>
+        </class>
+        <class>
+            <name>B1 - Kortuddannede familier uden børn</name>
+            <style>
+                <color>152 152 152</color>
+            </style>
+        </class>
+        <class>
+            <name>B2 - Veluddannede børnefamilier på vej</name>
+            <style>
+                <color>195 195 195</color>
+            </style>
+        </class>
+        <class>
+            <name>B3 - Seniorfamilier med fraflyttede børn</name>
+            <style>
+                <color>222 222 222</color>
+            </style>
+        </class>
+        <class>
+            <name>B4 - Par og enlige i ældre huse</name>
+            <style>
+                <color>241 241 241</color>
+            </style>
+        </class>
+        <class>
+            <name>B5 - Små familier i mindre rækkehuse i provinsen</name>
+            <style>
+                <color>245 245 245</color>
+            </style>
+        </class>
+        <class>
+            <name>C1 - Familier med aktivt landbrug</name>
+            <style>
+                <color>228 228 127</color>
+            </style>
+        </class>
+        <class>
+            <name>C2 - Børnefamilier i det åbne land</name>
+            <style>
+                <color>255 255 153</color>
+            </style>
+        </class>
+        <class>
+            <name>C3 - Seniorfamilier i det åbne land</name>
+            <style>
+                <color>255 255 178</color>
+            </style>
+        </class>
+        <class>
+            <name>C4 - Formuende familier på landet</name>
+            <style>
+                <color>255 255 203</color>
+            </style>
+        </class>
+        <class>
+            <name>C5 - Par og enlige med landboliv</name>
+            <style>
+                <color>255 255 228</color>
+            </style>
+        </class>
+        <class>
+            <name>D1 - Veluddannede, etablerede højindkomstfamilier</name>
+            <style>
+                <color>129 191 191</color>
+            </style>
+        </class>
+        <class>
+            <name>D2 - Formuende og ressourcestærke børnefamilier</name>
+            <style>
+                <color>129 216 213</color>
+            </style>
+        </class>
+        <class>
+            <name>D3 - Veluddannede, velstillede, voksne familier</name>
+            <style>
+                <color>130 252 248</color>
+            </style>
+        </class>
+        <class>
+            <name>E1 - Unge lejere under uddannelse</name>
+            <style>
+                <color>136 165 136</color>
+            </style>
+        </class>
+        <class>
+            <name>E2 - Veluddannede i andelslejligheder</name>
+            <style>
+                <color>145 202 145</color>
+            </style>
+        </class>
+        <class>
+            <name>E3 - Voksne enlige midt i byen</name>
+            <style>
+                <color>180 238 180</color>
+            </style>
+        </class>
+        <class>
+            <name>E4 - Unge og ældre i ydre by</name>
+            <style>
+                <color>154 251 154</color>
+            </style>
+        </class>
+        <class>
+            <name>E5 - Enlige med lave indkomster</name>
+            <style>
+                <color>224 253 224</color>
+            </style>
+        </class>
+        <class>
+            <name>F1 - Yngre, veludannede højindkomstfamilier</name>
+            <style>
+                <color>213 143 143</color>
+            </style>
+        </class>
+        <class>
+            <name>F2 - Veluddannede byfamilier</name>
+            <style>
+                <color>246 146 146</color>
+            </style>
+        </class>
+        <class>
+            <name>F3 - Familier med formue og forstand</name>
+            <style>
+                <color>255 180 180</color>
+            </style>
+        </class>
+        <class>
+            <name>F4 - Singler uden børn i lejeboliger</name>
+            <style>
+                <color>255 205 195</color>
+            </style>
+        </class>
+        <class>
+            <name>G1 - Seniorfamilier i rækkehuse i provinsen</name>
+            <style>
+                <color>170 127 177</color>
+            </style>
+        </class>
+        <class>
+            <name>G2 - Vise og velstillede veteraner</name>
+            <style>
+                <color>221 127 226</color>
+            </style>
+        </class>
+        <class>
+            <name>G3 - Enlige seniorer i lejligheder</name>
+            <style>
+                <color>250 172 250</color>
+            </style>
+        </class>
+        <class>
+            <name>G4 - De ældste og borgere i særlige boliger</name>
+            <style>
+                <color>235 198 242</color>
+            </style>
+        </class>
+        <class>
+            <name>H1 - Studerende på kollegier</name>
+            <style>
+                <color>203 178 127</color>
+            </style>
+        </class>
+        <class>
+            <name>H2 - Unge singler i første bolig</name>
+            <style>
+                <color>255 230 127</color>
+            </style>
+        </class>
+        <class>
+            <name>I1 - Unge singler i provinsbyerne</name>
+            <style>
+                <color>183 143 143</color>
+            </style>
+        </class>
+        <class>
+            <name>I2 - Lejere uden for arbejdsmarkedet</name>
+            <style>
+                <color>183 146 143</color>
+            </style>
+        </class>
+        <class>
+            <name>I3 - Midlaldrende i ældre lejligheder</name>
+            <style>
+                <color>183 180 180</color>
+            </style>
+        </class>
+        <class>
+            <name>I4 - Enlige voksne med lave indkomster</name>
+            <style>
+                <color>183 188 143</color>
+            </style>
+        </class>
+    </layer>
+</theme>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tool>
+    <cbinfo-metadata>
+        <param name="tool.help.text"><![CDATA[Link til Geomatics geodemografiske klassifikation]]></param>
+    </cbinfo-metadata>
+    <onclick>link_socio_klassifikation();</onclick>
+    <displayname><![CDATA[Link til Geomatics klassifikations dokumentation]]></displayname>
+    <description><![CDATA[Denne knap åbner Geomatics klassifikations dokumentation]]></description>
+    <tooltip><![CDATA[Klik for at læse klassifikations dokumentation]]></tooltip>
+    <jssrc><![CDATA[
+        function link_socio_klassifikation()
+        {
+           url="http://issuu.com/geomatic/docs/geodemografisk_klassifikation_dk_g5";
+           window.open (url);
+        }
+	]]></jssrc>
+</tool>
