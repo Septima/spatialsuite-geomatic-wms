@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <themes>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_arbejdsledige">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_arbejdsledige">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
@@ -9,25 +9,25 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_anden">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_anden">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
                 <selectable>true</selectable>
-                <displayname>Anden Beskæftigelse</displayname>
+                <displayname>Anden BeskÃ¦ftigelse</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_besk_oevrige_lm">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_besk_oevrige_lm">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
                 <selectable>true</selectable>
-                <displayname>Øvrige lønmodtagere</displayname>
+                <displayname>Ã˜vrige lÃ¸nmodtagere</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_pensionister">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_pensionister">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
@@ -36,34 +36,34 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_efterloen">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_efterloen">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
                 <selectable>true</selectable>
-                <displayname>Efterlønsmodtagere</displayname>
+                <displayname>EfterlÃ¸nsmodtagere</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_ftids_pens">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_ftids_pens">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
                 <selectable>true</selectable>
-                <displayname>Førtidspensionister</displayname>
+                <displayname>FÃ¸rtidspensionister</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_selvst">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_selvst">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
                 <selectable>true</selectable>
-                <displayname>Selvstændige</displayname>
+                <displayname>SelvstÃ¦ndige</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_besk_topl">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_besk_topl">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
@@ -72,25 +72,25 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_lm_hoejt">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_lm_hoejt">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
                 <selectable>true</selectable>
-                <displayname>Lønmodtagere på højt niveau</displayname>
+                <displayname>LÃ¸nmodtagere pÃ¥ hÃ¸jt niveau</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_lm_mellem">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_lm_mellem">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
                 <selectable>true</selectable>
-                <displayname>Lønmodtagere på mellemniveau</displayname>
+                <displayname>LÃ¸nmodtagere pÃ¥ mellemniveau</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_udd">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_udd">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
@@ -99,16 +99,16 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_besk_boern">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_boern">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>beskaeftigelse</group>
                 <selectable>true</selectable>
-                <displayname>Børn</displayname>
+                <displayname>BÃ¸rn</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_ukendt">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_ukendt">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>ejerforhold</group>
@@ -117,7 +117,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_offleje">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_offleje">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>ejerforhold</group>
@@ -126,7 +126,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_privatleje">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_privatleje">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>ejerforhold</group>
@@ -135,7 +135,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_ejerbolig">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_ejerbolig">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>ejerforhold</group>
@@ -144,7 +144,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_ejer_andel">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_andel">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>ejerforhold</group>
@@ -153,7 +153,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_husstandsindkomst_gns">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_husstandsindkomst_gns">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>indkomst_og_formue</group>
@@ -162,7 +162,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_personindkomst_gns">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_personindkomst_gns">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>indkomst_og_formue</group>
@@ -171,7 +171,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_formue_gns">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_formue_gns">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>indkomst_og_formue</group>
@@ -180,7 +180,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_anden">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_anden">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>uddannelse</group>
@@ -189,7 +189,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_langvidere">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_langvidere">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>uddannelse</group>
@@ -198,7 +198,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_bach">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_bach">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>uddannelse</group>
@@ -207,25 +207,25 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_mellemvidere">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_mellemvidere">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>uddannelse</group>
                 <selectable>true</selectable>
-                <displayname>Mellemlang videregående</displayname>
+                <displayname>Mellemlang videregÃ¥ende</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_kortvidere">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_kortvidere">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>uddannelse</group>
                 <selectable>true</selectable>
-                <displayname>Kort videregående</displayname>
+                <displayname>Kort videregÃ¥ende</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_erhvgym">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_erhvgym">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>uddannelse</group>
@@ -234,7 +234,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_almen">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_almen">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>uddannelse</group>
@@ -243,7 +243,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_erhvfag">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_erhvfag">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>uddannelse</group>
@@ -252,7 +252,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_udd_grund">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_grund">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>uddannelse</group>
@@ -261,7 +261,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_alder">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_alder">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -270,16 +270,16 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_beskaeftigelse">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_beskaeftigelse">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
                 <selectable>true</selectable>
-                <displayname>Beskæftigelsesfaktor</displayname>
+                <displayname>BeskÃ¦ftigelsesfaktor</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_bilejer">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_bilejer">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -288,16 +288,16 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_boerne">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_boerne">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
                 <selectable>true</selectable>
-                <displayname>Børnefaktor</displayname>
+                <displayname>BÃ¸rnefaktor</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_boligtype">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_boligtype">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -306,7 +306,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_civilstand">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_civilstand">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -315,7 +315,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_ejerforhold">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_ejerforhold">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -324,7 +324,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_ryge">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_ryge">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -333,7 +333,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_formue">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_formue">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -342,7 +342,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_husstandsindkomst">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_husstandsindkomst">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -351,7 +351,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_personindkomst">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_personindkomst">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -360,7 +360,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_uddannelse">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_uddannelse">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -369,7 +369,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_medie">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_medie">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -378,16 +378,16 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_miljoe">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_miljoe">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
                 <selectable>true</selectable>
-                <displayname>Miljøfaktor</displayname>
+                <displayname>MiljÃ¸faktor</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_transport">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_transport">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -396,7 +396,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_digitalisering">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_digitalisering">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>faktorer</group>
@@ -405,7 +405,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_gruppe_g4">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_gruppe_g4">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>geomatic_klassifikation</group>
@@ -414,7 +414,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_gruppe_g5">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_gruppe_g5">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>geomatic_klassifikation</group>
@@ -423,7 +423,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_type_g4">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_type_g4">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>geomatic_klassifikation</group>
@@ -432,7 +432,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_faktor_type_g5">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_type_g5">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>geomatic_klassifikation</group>
@@ -441,106 +441,106 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_over75">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_over75">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder over 75 år</displayname>
+                <displayname>Alder over 75 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_66_75">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_66_75">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 66-75 år</displayname>
+                <displayname>Alder 66-75 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_60_65">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_60_65">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 60-65 år</displayname>
+                <displayname>Alder 60-65 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_50_59">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_50_59">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 50-59 år</displayname>
+                <displayname>Alder 50-59 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_40_49">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_40_49">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 40-49 år</displayname>
+                <displayname>Alder 40-49 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_36_39">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_36_39">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 36-39 år</displayname>
+                <displayname>Alder 36-39 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_30_35">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_30_35">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 30-35 år</displayname>
+                <displayname>Alder 30-35 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_23_29">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_23_29">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 23-29 år</displayname>
+                <displayname>Alder 23-29 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_17_22">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_17_22">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 17-22 år</displayname>
+                <displayname>Alder 17-22 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_12_16">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_12_16">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 12-16 år</displayname>
+                <displayname>Alder 12-16 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_alder11g_0_11">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_0_11">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>alder</group>
                 <selectable>true</selectable>
-                <displayname>Alder 0-11 år</displayname>
+                <displayname>Alder 0-11 Ã¥r</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_civilstand_par">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_civilstand_par">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>civilstand</group>
@@ -549,7 +549,7 @@
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
-        <theme module="wms_conzoomsocio" name="theme-conzoom_civilstand_enlig">
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_civilstand_enlig">
             <themeselector>
                 <initialstate>available</initialstate>
                 <group>civilstand</group>
