@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <profile>
     <themegroups>
-        <include onlychildnodes="true" src="[module:wms_conzoomsocio.dir]/profiles/includes/themegroups.xml"/>
+        <include onlychildnodes="true" src="[module:spatialsuite-geomatic-wms.dir]/profiles/includes/themegroups.xml"/>
     </themegroups>
     <themes>
-        <include onlychildnodes="true" src="[module:wms_conzoomsocio.dir]/profiles/includes/themes.xml"/>
+        <include onlychildnodes="true" src="[module:spatialsuite-geomatic-wms.dir]/profiles/includes/themes.xml"/>
     </themes>
 </profile>
