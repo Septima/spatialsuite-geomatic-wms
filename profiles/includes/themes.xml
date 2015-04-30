@@ -410,7 +410,7 @@
                 <initialstate>available</initialstate>
                 <group>geomatic_klassifikation</group>
                 <selectable>true</selectable>
-                <displayname>Husstandsgruppe G4 (2012)</displayname>
+                <displayname>Husstandsgruppe G4 (2013)</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
@@ -428,7 +428,7 @@
                 <initialstate>available</initialstate>
                 <group>geomatic_klassifikation</group>
                 <selectable>true</selectable>
-                <displayname>Husstandstype G4 (2012)</displayname>
+                <displayname>Husstandstype G4 (2013)</displayname>
             </themeselector>
             <downloadable>false</downloadable>
         </theme>
