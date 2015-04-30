@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <themegroups>
-    <themegroup displayname="Uddannelse variable" expanded="false" name="uddannelse" type="checkbutton"/>
-    <themegroup displayname="Indkomst og formue variable" expanded="false" name="indkomst_og_formue" type="checkbutton"/>
-    <themegroup displayname="Ejerforhold variable" expanded="false" name="ejerforhold" type="checkbutton"/>
-    <themegroup displayname="Civilstand" expanded="false" name="civilstand" type="checkbutton"/>
-    <themegroup displayname="Beskæftigelse variable" expanded="false" name="beskaeftigelse" type="checkbutton"/>
-    <themegroup displayname="Alder variable" expanded="false" name="alder" type="checkbutton"/>
-    <themegroup displayname="Geomatic faktorer" expanded="false" name="faktorer" type="checkbutton"/>
-    <themegroup displayname="Geomatic klassifikation" expanded="false" name="geomatic_klassifikation" type="checkbutton"/>
+    <themegroup displayname="Uddannelse variable" expanded="false" name="uddannelse" type="radiobutton"/>
+    <themegroup displayname="Indkomst og formue variable" expanded="false" name="indkomst_og_formue" type="radiobutton"/>
+    <themegroup displayname="Ejerforhold variable" expanded="false" name="ejerforhold" type="radiobutton"/>
+    <themegroup displayname="Civilstand" expanded="false" name="civilstand" type="radiobutton"/>
+    <themegroup displayname="BeskÃ¦ftigelse variable" expanded="false" name="beskaeftigelse" type="radiobutton"/>
+    <themegroup displayname="Alder variable" expanded="false" name="alder" type="radiobutton"/>
+    <themegroup displayname="Geomatic faktorer" expanded="false" name="faktorer" type="radiobutton"/>
+    <themegroup displayname="Geomatic klassifikation" expanded="false" name="geomatic_klassifikation" type="radiobutton"/>
 </themegroups>
