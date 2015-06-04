@@ -11,7 +11,7 @@
         <param name="copyright.url"><![CDATA[https://www.conzoom.eu/]]></param>
         <param name="copyright-text"><![CDATA[© Conzoom]]></param>
         <param name="metadata.text"><![CDATA[Andelsboliger]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/5]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/3]]></param>
     </cbinfo-metadata>
     <layer datasource="conzoom_ejer_andel" name="dummy" type="RASTER">[datasource:conzoom_ejer_andel.mapfile-datasource]
 <class>
