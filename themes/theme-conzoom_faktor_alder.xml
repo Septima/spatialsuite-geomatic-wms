@@ -14,71 +14,71 @@
     =============================================================== 
     -->
     <cbinfo-metadata>
-        <param name="metadata.text"><![CDATA[Geomatic public data. Aldersgrupperne er inddelt i Under 11 år, Fra 12 til 16 år, Fra 17 til 22 år, Fra 23 til 29 år, Fra 30 til 39 år, Fra 40 til 49 år, Fra 50 til 59 år, Fra 60 til 65 år og Over 65 år]]></param>
-        <param name="copyright-text"><![CDATA[© Geomatic  ]]></param>
+        <param name="metadata.text"><![CDATA[Geomatic public data. Aldersgrupperne er inddelt i Under 11 Ã¥r, Fra 12 til 16 Ã¥r, Fra 17 til 22 Ã¥r, Fra 23 til 29 Ã¥r, Fra 30 til 39 Ã¥r, Fra 40 til 49 Ã¥r, Fra 50 til 59 Ã¥r, Fra 60 til 65 Ã¥r og Over 65 Ã¥r]]></param>
+        <param name="copyright-text"><![CDATA[Â© Geomatic  ]]></param>
         <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/12]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/6]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_aldersfaktor" type="RASTER">[datasource:wms_aldersfaktor.mapfile-datasource]
         <transparency>100</transparency>
     </layer>
     <layer name="dummy" type="POLYGON">
         <class>
-            <name>1: 23-29 årige (32%) </name>
+            <name>1: 23-29 Ã¥rige (32%) </name>
             <style>
                 <color>150 150 150</color>
             </style>
         </class>
         <class>
-            <name>2: 30-39 årige (24%) </name>
+            <name>2: 30-39 Ã¥rige (24%) </name>
             <style>
                 <color>143 175 199</color>
             </style>
         </class>
         <class>
-            <name>3: 30-59 årige (63%) </name>
+            <name>3: 30-59 Ã¥rige (63%) </name>
             <style>
                 <color>127 175 227</color>
             </style>
         </class>
         <class>
-            <name>4: 40-49 årige (24%) </name>
+            <name>4: 40-49 Ã¥rige (24%) </name>
             <style>
                 <color>192 214 240</color>
             </style>
         </class>
         <class>
-            <name>5: Under 50 år (46%) </name>
+            <name>5: Under 50 Ã¥r (46%) </name>
             <style>
                 <color>191 222 191</color>
             </style>
         </class>
         <class>
-            <name>6: 50-59 årige (22%) </name>
+            <name>6: 50-59 Ã¥rige (22%) </name>
             <style>
                 <color>145 201 145</color>
             </style>
         </class>
         <class>
-            <name>7: Under 60 år (57%) </name>
+            <name>7: Under 60 Ã¥r (57%) </name>
             <style>
                 <color>225 230 128</color>
             </style>
         </class>
         <class>
-            <name>8: Over 40 år (88%) </name>
+            <name>8: Over 40 Ã¥r (88%) </name>
             <style>
                 <color>247 187 143</color>
             </style>
         </class>
         <class>
-            <name>9: Over 60 år (58%) </name>
+            <name>9: Over 60 Ã¥r (58%) </name>
             <style>
                 <color>247 146 146</color>
             </style>
         </class>
         <class>
-            <name>10: Over 65 år (68%) </name>
+            <name>10: Over 65 Ã¥r (68%) </name>
             <style>
                 <color>214 143 143</color>
             </style>
