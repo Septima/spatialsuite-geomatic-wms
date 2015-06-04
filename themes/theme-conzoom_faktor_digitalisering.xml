@@ -15,9 +15,9 @@
     -->
     <cbinfo-metadata>
         <param name="metadata.text"><![CDATA[Geomatic public data. ]]></param>
-        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="copyright-text"><![CDATA[Â© Geomatic]]></param>
         <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/15]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/11]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_digitaliseringsfaktor" type="RASTER">[datasource:wms_digitaliseringsfaktor.mapfile-datasource]
         <transparency>100</transparency>
@@ -30,19 +30,19 @@
             </style>
         </class>
         <class>
-            <name>2 - Bruger ikke PC så ofte og er utrygge ved online betaling</name>
+            <name>2 - Bruger ikke PC sÃ¥ ofte og er utrygge ved online betaling</name>
             <style>
                 <color>143 175 199</color>
             </style>
         </class>
         <class>
-            <name>3 - Bruger ikke PC så ofte og er utrygge ved online betaling </name>
+            <name>3 - Bruger ikke PC sÃ¥ ofte og er utrygge ved online betaling </name>
             <style>
                 <color>127 175 227</color>
             </style>
         </class>
         <class>
-            <name>4 - Bruger ikke PC så ofte og er utrygge ved online betaling </name>
+            <name>4 - Bruger ikke PC sÃ¥ ofte og er utrygge ved online betaling </name>
             <style>
                 <color>192 214 240</color>
             </style>
@@ -54,13 +54,13 @@
             </style>
         </class>
         <class>
-            <name>6 - Gennemsnitsdanskeren, dog lidt færre med internetadgang </name>
+            <name>6 - Gennemsnitsdanskeren, dog lidt fÃ¦rre med internetadgang </name>
             <style>
                 <color>145 201 145</color>
             </style>
         </class>
         <class>
-            <name>7 - Bruger PC og handler på nettet, men er lidt utryg ved online betaling </name>
+            <name>7 - Bruger PC og handler pÃ¥ nettet, men er lidt utryg ved online betaling </name>
             <style>
                 <color>225 230 128</color>
             </style>
