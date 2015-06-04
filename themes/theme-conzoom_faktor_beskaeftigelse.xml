@@ -10,75 +10,75 @@
     ===============================================================
     Conzoom public, Syddjurs Kommune
     ===============================================================
-	Conzoom, beskæftigelsesfaktor
+	Conzoom, beskÃ¦ftigelsesfaktor
     =============================================================== 
     -->
     <cbinfo-metadata>
-        <param name="metadata.text"><![CDATA[Geomatic public data. Inddelt i Selvstændige, Topledere, Lønmodtagere på højt niveau, Lønmodtagere på mellemniveau, Øvrige lønmodtagere, Arbejdsledige, Førtidspensionister, Efterlønsmodtagere, Under uddannelse, Pensionister, Børn og Anden beskæftigelse]]></param>
-        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="metadata.text"><![CDATA[Geomatic public data. Inddelt i SelvstÃ¦ndige, Topledere, LÃ¸nmodtagere pÃ¥ hÃ¸jt niveau, LÃ¸nmodtagere pÃ¥ mellemniveau, Ã˜vrige lÃ¸nmodtagere, Arbejdsledige, FÃ¸rtidspensionister, EfterlÃ¸nsmodtagere, Under uddannelse, Pensionister, BÃ¸rn og Anden beskÃ¦ftigelse]]></param>
+        <param name="copyright-text"><![CDATA[Â© Geomatic]]></param>
         <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/13]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/7]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_beskaeftigelsesfaktor" type="RASTER">[datasource:wms_beskaeftigelsesfaktor.mapfile-datasource]
         <transparency>100</transparency>
     </layer>
     <layer name="dummy" type="POLYGON">
         <class>
-            <name>1: Udenfor beskæftigelse (50%) </name>
+            <name>1: Udenfor beskÃ¦ftigelse (50%) </name>
             <style>
                 <color>150 150 150</color>
             </style>
         </class>
         <class>
-            <name>2: Udenfor beskæftigelse (47%) </name>
+            <name>2: Udenfor beskÃ¦ftigelse (47%) </name>
             <style>
                 <color>143 175 199</color>
             </style>
         </class>
         <class>
-            <name>3: Udenfor beskæftigelse (46%) </name>
+            <name>3: Udenfor beskÃ¦ftigelse (46%) </name>
             <style>
                 <color>127 175 227</color>
             </style>
         </class>
         <class>
-            <name>4: Lønmodtagere på Mellemhøjt niveau (30%) </name>
+            <name>4: LÃ¸nmodtagere pÃ¥ MellemhÃ¸jt niveau (30%) </name>
             <style>
                 <color>192 214 240</color>
             </style>
         </class>
         <class>
-            <name>5: Lønmodtagere på Mellemhøjt niveau (31%) </name>
+            <name>5: LÃ¸nmodtagere pÃ¥ MellemhÃ¸jt niveau (31%) </name>
             <style>
                 <color>191 222 191</color>
             </style>
         </class>
         <class>
-            <name>6: Lønmodtagere på Mellemhøjt niveau (31%) </name>
+            <name>6: LÃ¸nmodtagere pÃ¥ MellemhÃ¸jt niveau (31%) </name>
             <style>
                 <color>145 201 145</color>
             </style>
         </class>
         <class>
-            <name>7: Lønmodtagere på Højt niveau (18%) </name>
+            <name>7: LÃ¸nmodtagere pÃ¥ HÃ¸jt niveau (18%) </name>
             <style>
                 <color>225 230 128</color>
             </style>
         </class>
         <class>
-            <name>8: Lønmodtagere på Højt niveau (20%) </name>
+            <name>8: LÃ¸nmodtagere pÃ¥ HÃ¸jt niveau (20%) </name>
             <style>
                 <color>247 187 143</color>
             </style>
         </class>
         <class>
-            <name>9: Lønmodtagere på Højt niveau (23%) </name>
+            <name>9: LÃ¸nmodtagere pÃ¥ HÃ¸jt niveau (23%) </name>
             <style>
                 <color>247 146 146</color>
             </style>
         </class>
         <class>
-            <name>10: Lønmodtagere på Højt niveau (29%) </name>
+            <name>10: LÃ¸nmodtagere pÃ¥ HÃ¸jt niveau (29%) </name>
             <style>
                 <color>214 143 143</color>
             </style>
