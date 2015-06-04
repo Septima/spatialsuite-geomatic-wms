@@ -15,70 +15,70 @@
     -->
     <cbinfo-metadata>
         <param name="metadata.text"><![CDATA[Geomatic public data. ]]></param>
-        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="copyright-text"><![CDATA[Â© Geomatic]]></param>
         <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/15]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/9]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_formuefaktor" type="RASTER">[datasource:wms_formuefaktor.mapfile-datasource]
         <transparency>100</transparency>
     </layer>
     <layer name="dummy" type="POLYGON">
         <class>
-            <name>1: Gns. formue på kr -172.905 </name>
+            <name>1: Gns. formue pÃ¥ kr -172.905 </name>
             <style>
                 <color>150 150 150</color>
             </style>
         </class>
         <class>
-            <name>2: Gns. formue på kr 2.506 </name>
+            <name>2: Gns. formue pÃ¥ kr 2.506 </name>
             <style>
                 <color>143 175 199</color>
             </style>
         </class>
         <class>
-            <name>3: Gns. formue på kr 65.599 </name>
+            <name>3: Gns. formue pÃ¥ kr 65.599 </name>
             <style>
                 <color>127 175 227</color>
             </style>
         </class>
         <class>
-            <name>4: Gns. formue på kr 154.265 </name>
+            <name>4: Gns. formue pÃ¥ kr 154.265 </name>
             <style>
                 <color>192 214 240</color>
             </style>
         </class>
         <class>
-            <name>5: Gns. formue på kr 263.258 </name>
+            <name>5: Gns. formue pÃ¥ kr 263.258 </name>
             <style>
                 <color>191 222 191</color>
             </style>
         </class>
         <class>
-            <name>6: Gns. formue på kr 402.439 </name>
+            <name>6: Gns. formue pÃ¥ kr 402.439 </name>
             <style>
                 <color>145 201 145</color>
             </style>
         </class>
         <class>
-            <name>7: Gns. formue på kr 580.854 </name>
+            <name>7: Gns. formue pÃ¥ kr 580.854 </name>
             <style>
                 <color>225 230 128</color>
             </style>
         </class>
         <class>
-            <name>8: Gns. formue på kr 814.284 </name>
+            <name>8: Gns. formue pÃ¥ kr 814.284 </name>
             <style>
                 <color>247 187 143</color>
             </style>
         </class>
         <class>
-            <name>9: Gns. formue på kr 1.168.958 </name>
+            <name>9: Gns. formue pÃ¥ kr 1.168.958 </name>
             <style>
                 <color>247 146 146</color>
             </style>
         </class>
         <class>
-            <name>10: Gns. formue på kr 2.246.112 </name>
+            <name>10: Gns. formue pÃ¥ kr 2.246.112 </name>
             <style>
                 <color>214 143 143</color>
             </style>
