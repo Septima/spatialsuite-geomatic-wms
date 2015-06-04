@@ -15,9 +15,9 @@
     -->
     <cbinfo-metadata>
         <param name="metadata.text"><![CDATA[Geomatic public data. ]]></param>
-        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
+        <param name="copyright-text"><![CDATA[Â© Geomatic]]></param>
         <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/13]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/11]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_boligtypefaktor" type="RASTER">[datasource:wms_boligtypefaktor.mapfile-datasource]
         <transparency>100</transparency>
@@ -48,13 +48,13 @@
             </style>
         </class>
         <class>
-            <name>5: Enfamiliehus og Række/kædehus (76%) </name>
+            <name>5: Enfamiliehus og RÃ¦kke/kÃ¦dehus (76%) </name>
             <style>
                 <color>191 222 191</color>
             </style>
         </class>
         <class>
-            <name>6: Række/kædehus (77%)</name>
+            <name>6: RÃ¦kke/kÃ¦dehus (77%)</name>
             <style>
                 <color>145 201 145</color>
             </style>
