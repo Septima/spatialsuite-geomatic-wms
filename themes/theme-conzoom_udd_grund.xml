@@ -11,7 +11,7 @@
         <param name="copyright.url"><![CDATA[https://www.conzoom.eu/]]></param>
         <param name="copyright-text"><![CDATA[© Conzoom]]></param>
         <param name="metadata.text"><![CDATA[Grundskole]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/11]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/5]]></param>
     </cbinfo-metadata>
     <layer datasource="conzoom_udd_grund" name="dummy" type="RASTER">[datasource:conzoom_udd_grund.mapfile-datasource]
 <class>
