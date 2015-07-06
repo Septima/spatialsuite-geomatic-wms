@@ -15,9 +15,9 @@
     -->
     <cbinfo-metadata>
         <param name="metadata.text"><![CDATA[Geomatic public data. ]]></param>
-        <param name="copyright-text"><![CDATA[Â© Geomatic]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
         <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/9]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/15]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_husstandsindkomstfaktor" type="RASTER">[datasource:wms_husstandsindkomstfaktor.mapfile-datasource]
         <transparency>100</transparency>

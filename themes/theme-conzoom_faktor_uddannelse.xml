@@ -14,10 +14,10 @@
     =============================================================== 
     -->
     <cbinfo-metadata>
-        <param name="metadata.text"><![CDATA[Geomatic public data. HÃ¸jeste gennemfÃ¸rte uddannelse i husstanden]]></param>
-        <param name="copyright-text"><![CDATA[Â© Geomatic]]></param>
+        <param name="metadata.text"><![CDATA[Geomatic public data. Højeste gennemførte uddannelse i husstanden]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
         <param name="copyright.url"/>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/7]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/12]]></param>
         <param name="img"><![CDATA[/images/custom/Conzoom_public.JPG]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_uddannelsesfaktor" type="RASTER">[datasource:wms_uddannelsesfaktor.mapfile-datasource]
@@ -55,31 +55,31 @@
             </style>
         </class>
         <class>
-            <name>6: VideregÃ¥ende uddannelser (33%) </name>
+            <name>6: Videregående uddannelser (33%) </name>
             <style>
                 <color>145 201 145</color>
             </style>
         </class>
         <class>
-            <name>7: VideregÃ¥ende uddannelser (40%) </name>
+            <name>7: Videregående uddannelser (40%) </name>
             <style>
                 <color>225 230 128</color>
             </style>
         </class>
         <class>
-            <name>8: VideregÃ¥ende uddannelser (47%) </name>
+            <name>8: Videregående uddannelser (47%) </name>
             <style>
                 <color>247 187 143</color>
             </style>
         </class>
         <class>
-            <name>9: Mellemlang og lang videregÃ¥ende (49%) </name>
+            <name>9: Mellemlang og lang videregående (49%) </name>
             <style>
                 <color>247 146 146</color>
             </style>
         </class>
         <class>
-            <name>10: Lang videregÃ¥ende inkl. forskere (33%) </name>
+            <name>10: Lang videregående inkl. forskere (33%) </name>
             <style>
                 <color>214 143 143</color>
             </style>

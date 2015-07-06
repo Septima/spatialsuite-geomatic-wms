@@ -15,9 +15,9 @@
     -->
     <cbinfo-metadata>
         <param name="metadata.text"><![CDATA[Geomatic public data. Transportfaktor]]></param>
-        <param name="copyright-text"><![CDATA[Â© Geomatic]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
         <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/13]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/24]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_transportfaktor" type="RASTER">[datasource:wms_transportfaktor.mapfile-datasource]
         <transparency>100</transparency>
@@ -30,13 +30,13 @@
             </style>
         </class>
         <class>
-            <name>2: Bruger bÃ¥de kollektiv transport og bilen</name>
+            <name>2: Bruger både kollektiv transport og bilen</name>
             <style>
                 <color>143 175 199</color>
             </style>
         </class>
         <class>
-            <name>3: Bruger mest cyklen, men ogsÃ¥ bil og kollektiv transport</name>
+            <name>3: Bruger mest cyklen, men også bil og kollektiv transport</name>
             <style>
                 <color>127 175 227</color>
             </style>
@@ -54,7 +54,7 @@
             </style>
         </class>
         <class>
-            <name>6: Bruger mest kollektiv transport, men cykler ogsÃ¥. Ej bil</name>
+            <name>6: Bruger mest kollektiv transport, men cykler også. Ej bil</name>
             <style>
                 <color>145 201 145</color>
             </style>

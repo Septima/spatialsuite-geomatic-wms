@@ -15,40 +15,40 @@
     -->
     <cbinfo-metadata>
         <param name="metadata.text"><![CDATA[Geomatic public data. Rygefaktor]]></param>
-        <param name="copyright-text"><![CDATA[Â© Geomatic]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
         <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/13]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/23]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_rygefaktor" type="RASTER">[datasource:wms_rygefaktor.mapfile-datasource]
         <transparency>100</transparency>
     </layer>
     <layer name="dummy" type="POLYGON">
         <class>
-            <name>1: Meget fÃ¥ rygere</name>
+            <name>1: Meget få rygere</name>
             <style>
                 <color>150 150 150</color>
             </style>
         </class>
         <class>
-            <name>2: FÃ¥ rygere, enkelte vil stoppe</name>
+            <name>2: Få rygere, enkelte vil stoppe</name>
             <style>
                 <color>143 175 199</color>
             </style>
         </class>
         <class>
-            <name>3: FÃ¥ rygere, men vil ikke stoppe</name>
+            <name>3: Få rygere, men vil ikke stoppe</name>
             <style>
                 <color>127 175 227</color>
             </style>
         </class>
         <class>
-            <name>4: FÃ¥ rygere, men vil meget gerne stoppe</name>
+            <name>4: Få rygere, men vil meget gerne stoppe</name>
             <style>
                 <color>192 214 240</color>
             </style>
         </class>
         <class>
-            <name>5: FÃ¥ rygere, vil gerne stoppe </name>
+            <name>5: Få rygere, vil gerne stoppe </name>
             <style>
                 <color>191 222 191</color>
             </style>

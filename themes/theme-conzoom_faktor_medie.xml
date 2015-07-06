@@ -15,16 +15,16 @@
     -->
     <cbinfo-metadata>
         <param name="metadata.text"><![CDATA[Geomatic public data. Mediefaktor]]></param>
-        <param name="copyright-text"><![CDATA[Â© Geomatic]]></param>
+        <param name="copyright-text"><![CDATA[© Geomatic]]></param>
         <param name="copyright.url"><![CDATA[http://geomatic.dk/]]></param>
-        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/11]]></param>
+        <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/21]]></param>
     </cbinfo-metadata>
     <layer name="theme-conzoom_mediefaktor" type="RASTER">[datasource:wms_mediefaktor.mapfile-datasource]
         <transparency>100</transparency>
     </layer>
     <layer name="dummy" type="POLYGON">
         <class>
-            <name>1: StÃ¸rste brugere af lokalmedier </name>
+            <name>1: Største brugere af lokalmedier </name>
             <style>
                 <color>150 150 150</color>
             </style>
