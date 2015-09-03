@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_husstandsindkomst_gns">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>indkomst_og_formue</group>
+                <selectable>true</selectable>
+                <displayname>Gennemsnitlig husstandsindkomst</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_personindkomst_gns">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>indkomst_og_formue</group>
+                <selectable>true</selectable>
+                <displayname>Gennemsnitlig personindkomst</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_formue_gns">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>indkomst_og_formue</group>
+                <selectable>true</selectable>
+                <displayname>Gennemsnitlig formue</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+</themes>
+

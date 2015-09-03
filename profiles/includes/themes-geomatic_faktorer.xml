@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_alder">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Aldersfaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_beskaeftigelse">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Beskæftigelsesfaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_bilejer">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Bilejerfaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_boerne">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Børnefaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_boligtype">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Boligtypefaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_civilstand">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Civilstandsfaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_ejerforhold">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Ejerforholdsfaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_ryge">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Rygefaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_formue">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Formuefaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_husstandsindkomst">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Husstandsindkomst faktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_personindkomst">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Personindkomst faktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_uddannelse">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Uddannelsesfaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_medie">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Mediefaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_miljoe">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Miljøfaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_transport">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Transportfaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_digitalisering">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>faktorer</group>
+         <selectable>true</selectable>
+         <displayname>Digitaliseringsfaktor</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+</themes>
+

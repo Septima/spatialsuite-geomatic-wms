@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+ <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_anden">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Anden uddannelse</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_langvidere">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Lang videreg. og forskere</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_bach">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Bachelor</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_mellemvidere">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Mellemlang videregående</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_kortvidere">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Kort videregående</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_erhvgym">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Erhvervsgymnasial</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_almen">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Almen gymnasial</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_erhvfag">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Erhvervsfaglig</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_udd_grund">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>uddannelse</group>
+                <selectable>true</selectable>
+                <displayname>Grundskole</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+</themes>
+

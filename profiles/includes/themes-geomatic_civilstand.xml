@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_civilstand_par">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>civilstand</group>
+                <selectable>true</selectable>
+                <displayname>Par</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_civilstand_enlig">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>civilstand</group>
+                <selectable>true</selectable>
+                <displayname>Enlig</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+</themes>
+
