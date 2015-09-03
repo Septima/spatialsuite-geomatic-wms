@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+ <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_arbejdsledige">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Arbejdsledige</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_anden">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Anden Beskæftigelse</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_besk_oevrige_lm">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Øvrige lønmodtagere</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_pensionister">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Pensionister</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_efterloen">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Efterlønsmodtagere</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_ftids_pens">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Førtidspensionister</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_selvst">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Selvstændige</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_besk_topl">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Topledere</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_lm_hoejt">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Lønmodtagere på højt niveau</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_lm_mellem">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Lønmodtagere på mellemniveau</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_udd">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Under uddannelse</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_besk_boern">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>beskaeftigelse</group>
+                <selectable>true</selectable>
+                <displayname>Børn</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+</themes>		

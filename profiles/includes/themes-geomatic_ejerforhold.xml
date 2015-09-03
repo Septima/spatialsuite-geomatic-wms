@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_ukendt">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Ukendt</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_offleje">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Offentlige lejeboliger</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_privatleje">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Privat lejeboliger</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_ejerbolig">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Ejerboliger</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_ejer_andel">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>ejerforhold</group>
+                <selectable>true</selectable>
+                <displayname>Andelsboliger</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+</themes>
+

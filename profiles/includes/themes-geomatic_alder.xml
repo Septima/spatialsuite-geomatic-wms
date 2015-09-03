@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_over75">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder over 75 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_66_75">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 66-75 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_60_65">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 60-65 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_50_59">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 50-59 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_40_49">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 40-49 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_36_39">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 36-39 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_30_35">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 30-35 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_23_29">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 23-29 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_17_22">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 17-22 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_12_16">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 12-16 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+        <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_alder11g_0_11">
+            <themeselector>
+                <initialstate>available</initialstate>
+                <group>alder</group>
+                <selectable>true</selectable>
+                <displayname>Alder 0-11 år</displayname>
+            </themeselector>
+            <downloadable>false</downloadable>
+        </theme>
+</themes>
+

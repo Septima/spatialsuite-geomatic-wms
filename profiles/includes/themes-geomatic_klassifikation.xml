@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_gruppe_g4">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>geomatic_klassifikation</group>
+         <selectable>true</selectable>
+         <displayname>Husstandsgruppe G4 (2013)</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_gruppe_g5">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>geomatic_klassifikation</group>
+         <selectable>true</selectable>
+         <displayname>Husstandsgruppe G5 (2013)</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_type_g4">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>geomatic_klassifikation</group>
+         <selectable>true</selectable>
+         <displayname>Husstandstype G4 (2013)</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+   <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_faktor_type_g5">
+      <themeselector>
+         <initialstate>available</initialstate>
+         <group>geomatic_klassifikation</group>
+         <selectable>true</selectable>
+         <displayname>Husstandstype G5 (2013)</displayname>
+      </themeselector>
+      <downloadable>false</downloadable>
+   </theme>
+</themes>
+
