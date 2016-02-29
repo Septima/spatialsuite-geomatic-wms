@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_dagbefolkning_under_uddannelse_under_15">
+        <themeselector>
+            <initialstate>available</initialstate>
+            <group>dagbefolkning</group>
+            <selectable>true</selectable>
+            <displayname>Dagbefolkning under uddannelse under 15</displayname>
+        </themeselector>
+        <downloadable>false</downloadable>
+    </theme>
+    <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_dagbefolkning_under_uddannelse_over_15">
+        <themeselector>
+            <initialstate>available</initialstate>
+            <group>dagbefolkning</group>
+            <selectable>true</selectable>
+            <displayname>Dagbefolkning under uddannelse over 15</displayname>
+        </themeselector>
+        <downloadable>false</downloadable>
+    </theme>
+    <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_dagbefolkning_under_uddannelse">
+        <themeselector>
+            <initialstate>available</initialstate>
+            <group>dagbefolkning</group>
+            <selectable>true</selectable>
+            <displayname>Dagbefolkning under uddannelse</displayname>
+        </themeselector>
+        <downloadable>false</downloadable>
+    </theme>
+    <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_dagbefolkning_i_arbejde">
+        <themeselector>
+            <initialstate>available</initialstate>
+            <group>dagbefolkning</group>
+            <selectable>true</selectable>
+            <displayname>Dagbefolkning i arbejde</displayname>
+        </themeselector>
+        <downloadable>false</downloadable>
+    </theme>
+    <theme module="spatialsuite-geomatic-wms" name="theme-conzoom_dagbefolkning">
+        <themeselector>
+            <initialstate>available</initialstate>
+            <group>dagbefolkning</group>
+            <selectable>true</selectable>
+            <displayname>Dagbefolkning</displayname>
+        </themeselector>
+        <downloadable>false</downloadable>
+    </theme>
+</themes>		
