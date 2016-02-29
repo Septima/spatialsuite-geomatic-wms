@@ -18,6 +18,7 @@ Indsæt følgende i din profils **themegroups** element:
 
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/profile.xml" nodes="/profile/themegroups/themegroup[@name='geomatic_klassifikation']" mustexist="false"/>
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/profile.xml" nodes="/profile/themegroups/themegroup[@name='faktorer']" mustexist="false"/>
+<include src="[module:spatialsuite-geomatic-wms.dir]/profiles/profile.xml" nodes="/profile/themegroups/themegroup[@name='dagbefolkning']" mustexist="false"/>
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/profile.xml" nodes="/profile/themegroups/themegroup[@name='beskaeftigelse']" mustexist="false"/>
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/profile.xml" nodes="/profile/themegroups/themegroup[@name='ejerforhold']" mustexist="false"/>
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/profile.xml" nodes="/profile/themegroups/themegroup[@name='indkomst_og_formue']" mustexist="false"/>
@@ -33,6 +34,7 @@ Indsæt dette i **themes** elementet i profilen:
 ```xml
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/includes/themes-geomatic_klassifikation.xml" nodes="/themes/*" mustexist="false"/>
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/includes/themes-geomatic_faktorer.xml" nodes="/themes/*" mustexist="false"/>
+<include src="[module:spatialsuite-geomatic-wms.dir]/profiles/includes/themes-geomatic_dagbefolkning.xml" nodes="/themes/*" mustexist="false"/>
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/includes/themes-geomatic_beskaeftigelse.xml" nodes="/themes/*" mustexist="false"/>
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/includes/themes-geomatic_ejerforhold.xml" nodes="/themes/*" mustexist="false"/>
 <include src="[module:spatialsuite-geomatic-wms.dir]/profiles/includes/themes-geomatic_indkomst_formue.xml" nodes="/themes/*" mustexist="false"/>
