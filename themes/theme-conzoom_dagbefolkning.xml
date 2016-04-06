@@ -11,9 +11,9 @@
         <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/5]]></param>
         <param name="metadata.text"><![CDATA[Dagbefolkning]]></param>
     </cbinfo-metadata>
-    <layer datasource="wms_dagbefolkning" name="theme-conzoom_dagbefolkning-66557" type="polygon">[datasource:wms_dagbefolkning.mapfile-datasource]
+    <layer datasource="wms_dagbefolkning" name="theme-conzoom_dagbefolkning-66557" type="RASTER">[datasource:wms_dagbefolkning.mapfile-datasource]
 <class>
-            <name>theme-conzoom_dagbefolkning</name>
+            <name>Dagbefolkning</name>
             <style>
                 <color>0 0 0</color>
                 <size>8</size>

@@ -11,9 +11,9 @@
         <param name="metadata.url"><![CDATA[http://issuu.com/geomatic/docs/geomatic_dokumentation_af_data/5]]></param>
         <param name="metadata.text"><![CDATA[Dagbefolkning under uddannelse under 15]]></param>
     </cbinfo-metadata>
-    <layer datasource="wms_dagbefolkning_under_uddannelse_under_15" name="theme-conzoom_dagbefolkning_under_uddannelse_under_15-8737" type="polygon">[datasource:wms_dagbefolkning_under_uddannelse_under_15.mapfile-datasource]
+    <layer datasource="wms_dagbefolkning_under_uddannelse_under_15" name="theme-conzoom_dagbefolkning_under_uddannelse_under_15-8737" type="RASTER">[datasource:wms_dagbefolkning_under_uddannelse_under_15.mapfile-datasource]
 <class>
-            <name>theme-conzoom_dagbefolkning_under_uddannelse_under_15</name>
+            <name>Dagbefolkning under uddannelse under 15</name>
             <style>
                 <color>0 0 0</color>
                 <size>8</size>

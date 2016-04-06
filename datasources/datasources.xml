@@ -667,4 +667,60 @@
 		  <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=567%26layerName=conzoom:public_wms_2015</sld>
 		</parameters>
     </datasource>
+	<!-- Dagbefolkning -->
+    <datasource name="wms_dagbefolkning" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+            <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+		  <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=30909%26layerName=conzoom:public_wms_2015</sld>
+		</parameters>
+    </datasource>
+    <datasource name="wms_dagbefolkning_i_arbejde" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+            <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+		  <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=30904%26layerName=conzoom:public_wms_2015</sld>
+		</parameters>
+    </datasource>
+    <datasource name="wms_dagbefolkning_under_uddannelse" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+            <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+		  <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=30908%26layerName=conzoom:public_wms_2015</sld>
+		</parameters>
+    </datasource>
+    <datasource name="wms_dagbefolkning_under_uddannelse_under_15" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+            <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+		  <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=30905%26layerName=conzoom:public_wms_2015</sld>
+		</parameters>
+    </datasource>
+    <datasource name="wms_dagbefolkning_under_uddannelse_over_15" endpoint="conzoom_socio_faktor_wms">
+        <wms>
+            <srs>EPSG:25832</srs>
+            <layers>conzoom:public_wms_2015</layers>
+            <format>image/png</format>
+            <transparent>true</transparent>
+        </wms>
+        <parameters>
+		  <sld>https://apps.conzoom.eu/sessionlessmap/staticsld?variableId=30906%26layerName=conzoom:public_wms_2015</sld>
+		</parameters>
+    </datasource>
 </datasources>
